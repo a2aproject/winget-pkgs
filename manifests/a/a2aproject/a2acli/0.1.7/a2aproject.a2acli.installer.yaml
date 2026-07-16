@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: a2aproject.a2acli
+PackageVersion: 0.1.7
+InstallerType: zip
+NestedInstallerType: portable
+Commands:
+- a2acli
+ReleaseDate: 2026-07-16
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/a2aproject/a2a-rs/releases/download/a2a-cli-v0.1.7/a2acli-v0.1.7-x86_64-pc-windows-msvc.zip
+  InstallerSha256: B2F0C2863CC7744F701C59BA1968C3EC38D9FB820B75110B664D54BA4EF1610F
+  NestedInstallerFiles:
+  - RelativeFilePath: a2acli-v0.1.7-x86_64-pc-windows-msvc\a2acli.exe
+    PortableCommandAlias: a2acli
+ManifestType: installer
+ManifestVersion: 1.12.0
