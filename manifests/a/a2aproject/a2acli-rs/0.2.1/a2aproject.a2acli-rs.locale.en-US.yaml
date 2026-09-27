@@ -6,6 +6,7 @@ PackageLocale: en-US
 Publisher: a2aproject
 PublisherUrl: https://github.com/a2aproject
 PublisherSupportUrl: https://github.com/a2aproject/a2a-rs/issues
+PrivacyUrl: https://github.com/a2aproject/a2a-rs/blob/main/a2acli/PRIVACY.md
 Author: AGNTCY Contributors
 PackageName: a2acli-rs
 PackageUrl: https://github.com/a2aproject/a2a-rs
